@@ -1,8 +1,8 @@
 import React from 'react';
-import { ThemePaletteType } from '../theming';
+import { Theme } from '../theming';
 import { createUseStyles, useTheme } from 'react-jss';
 
-const useStyles = createUseStyles((theme: ThemePaletteType) => ({
+const useStyles = createUseStyles((theme: Theme) => ({
   test: {
     color: theme.colorPrimary,
   },

@@ -35,8 +35,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "web-comps",
-  "author": "sam-m-m",
+  "name": "storybook-theming-demo",
+  "author": "Mrinalini 'Sam' Manandhar",
   "module": "dist/web-comps.esm.js",
   "size-limit": [
     {
@@ -51,6 +51,7 @@
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@size-limit/preset-small-lib": "^4.6.0",
+    "@storybook/addon-cssresources": "^6.0.25",
     "@storybook/addon-essentials": "^6.0.21",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^6.0.21",
@@ -60,6 +61,7 @@
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
+    "chromatic": "^5.2.0",
     "husky": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

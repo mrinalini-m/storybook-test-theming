@@ -1,10 +1,10 @@
 import React from 'react';
-import { ThemePaletteType } from '../theming';
+import { Theme } from '../theming';
 import { createUseStyles, useTheme } from 'react-jss';
 
-const useStyles = createUseStyles((theme: ThemePaletteType) => ({
+const useStyles = createUseStyles((theme: Theme) => ({
   button: {
-    backgroundColor: 'transparent',
+    backgroundColor: theme.background,
     border: `1px solid ${theme.colorPrimary}`,
     borderRadius: '2px',
     color: theme.colorPrimary,

@@ -3,7 +3,7 @@ module.exports = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
-    'storybook-dark-mode/register',
+    '@storybook/addon-cssresources',
   ],
 
   // https://storybook.js.org/docs/react/configure/typescript#mainjs-configuration
